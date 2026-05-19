@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "preview": "zenn preview"
+  },
+  "dependencies": {
+    "zenn-cli": "latest"
+  }
+}
