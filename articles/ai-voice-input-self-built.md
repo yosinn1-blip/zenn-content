@@ -14,6 +14,7 @@ published: true
 :::message
 追記: このアプリのMVP版をGitHub Releasesで公開しました。
 
+- [使い方ページ](https://yosinn1-blip.github.io/api-voice-input/)
 - [API音声ソフト v0.1.0 をダウンロード](https://github.com/yosinn1-blip/api-voice-input/releases/tag/v0.1.0)
 
 Macのメニューバー常駐アプリなので、起動しても通常のウィンドウは開きません。画面上部のメニューバーに出る `🎙` から、Groq APIキー設定や終了ができます。利用にはGroqアカウントとAPIキーが必要です。現時点ではnotarize済みではないため、初回起動時にGatekeeperの警告が出る場合があります。
