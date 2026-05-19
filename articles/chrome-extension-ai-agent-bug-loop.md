@@ -1,5 +1,5 @@
 ---
-title: "AIと二人三脚でChrome拡張を作ったら、同じバグを3回直す羽目になった"
+title: "AIと二人三脚でChrome拡張を作ったら、同じバグを何度も直す羽目になった"
 emoji: "🛒"
 type: "tech"
 topics: ["chrome-extension", "claude", "ai", "javascript", "manifest-v3"]
