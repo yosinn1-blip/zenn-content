@@ -10,6 +10,15 @@ published: true
 
 ここ数日、AIに話しかけるための音声入力環境をかなり試していました。
 
+
+:::message
+追記: このアプリのMVP版をGitHub Releasesで公開しました。
+
+- [API音声ソフト v0.1.0 をダウンロード](https://github.com/yosinn1-blip/api-voice-input/releases/tag/v0.1.0)
+
+Macのメニューバー常駐アプリなので、起動しても通常のウィンドウは開きません。画面上部のメニューバーに出る `🎙` から、Groq APIキー設定や終了ができます。利用にはGroqアカウントとAPIキーが必要です。現時点ではnotarize済みではないため、初回起動時にGatekeeperの警告が出る場合があります。
+:::
+
 Typeless、Whispur、Spokenly、FreeFlow系のアプリ、ローカルWhisper系、Groq APIを使うものなど、いろいろ触りました。オープンソースのものは自分でUIや設定を改造してみたりもしました。
 
 結論から言うと、今回の用途では、既存アプリを探して調整し続けるより、自分用に小さなmacOS音声入力アプリを作った方が早かったです。
