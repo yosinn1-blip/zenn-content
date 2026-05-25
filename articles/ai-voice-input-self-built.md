@@ -14,7 +14,7 @@ published: true
 :::message
 追記: このアプリのMVP版をGitHub Releasesで公開しました。
 
-- [使い方ページ](https://yosinn1-blip.github.io/api-voice-input/)
+- [使い方ページ](https://api-voice-input.vercel.app/)
 - [API音声ソフト v0.1.3 をダウンロード](https://github.com/yosinn1-blip/api-voice-input/releases/tag/v0.1.3)
 
 Macのメニューバー常駐アプリなので、起動しても通常のウィンドウは開きません。画面上部のメニューバーに出る `🎙` から、Groq APIキー設定や終了ができます。操作は `Fn → 話す → Fn` で入力欄に貼り付け、`Fn → 話す → Enter` で貼り付けて送信です。利用にはGroqアカウントとAPIキーが必要です。現時点ではnotarize済みではないため、初回起動時にGatekeeperの警告が出る場合があります。
@@ -66,7 +66,7 @@ Fnを押す
 ↓
 録音する
 ↓
-Groqのwhisper-large-v3-turboで文字起こし
+Groqのwhisper-large-v3で文字起こし
 ↓
 ローカル処理でフィラーを少し除去
 ↓
@@ -77,7 +77,7 @@ Groqのwhisper-large-v3-turboで文字起こし
 
 作りとしては、Swift / AppKitベースのメニューバーアプリです。
 
-音声認識はGroqのSpeech-to-Text APIを使いました。Groqの公式ドキュメントにも `whisper-large-v3-turbo` は高速な多言語文字起こし向けのモデルとして載っています。
+音声認識はGroqのSpeech-to-Text APIを使いました。このアプリでは `whisper-large-v3` を指定しています。
 
 - [Groq Speech to Text Docs](https://console.groq.com/docs/speech-to-text)
 
