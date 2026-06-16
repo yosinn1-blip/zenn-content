@@ -83,6 +83,6 @@ MEOチェキの看板機能は「検索順位の計測」です。これは**あ
 
 「有料が当たり前」だった店舗のGBP運用を、公式APIの上に0円OSSとして再構築しています。順位という推測値を追うのをやめ、実数とAIによる返信支援に振り切ったのが特徴です。
 
-- GitHub: https://github.com/yosinn1-blip/meo-harness（MIT License）
+- GitHub: [yosinn1-blip/meo-harness](https://github.com/yosinn1-blip/meo-harness)（MIT License）
 - 無料体験ページ: https://yosinn1-blip.github.io/yoshiki-apps/demo.html
 - フィードバック歓迎です。「順位が見たい」等の声があればぜひ。
