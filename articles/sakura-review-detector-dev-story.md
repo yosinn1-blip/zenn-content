@@ -2,7 +2,7 @@
 title: "AIが「できる」と言ったから作ったら、思ったより大変だった話【さくらレビュー検出Chrome拡張】"
 emoji: "🌸"
 type: "idea"
-topics: ["chrome拡張", "amazon", "ai", "個人開発", "chrome"]
+topics: ["chrome拡張", "amazon", "個人開発", "ai"]
 published: true
 ---
 
