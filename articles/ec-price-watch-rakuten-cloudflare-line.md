@@ -218,6 +218,16 @@ npx wrangler deploy
 - LINE無料プランのプッシュ通知は**月200通まで**。出品者として本格運用する場合はLINE有料プラン（月3,000円〜）への切り替えを推奨
 - 楽天API利用規約に従い、取得データは価格監視目的のみに使用してください
 
+## 追記（2026-07-03）: Yahoo!ショッピングにも対応しました
+
+公開当初は楽天限定でしたが、Yahoo!ショッピングの価格監視にも対応しました。`YAHOO_APP_ID`（[Yahoo! Developers Network](https://developer.yahoo.co.jp/)で無料発行）を任意で設定すると、楽天・Yahoo両方を並行チェックし、どちらかが自分の価格を下回った時点でLINE通知が飛びます。
+
+```bash
+npx wrangler secret put YAHOO_APP_ID      # 任意: Yahoo価格監視を有効にする場合
+```
+
+楽天IDだけでも今まで通り動作するので、既存ユーザーは何もしなくてOKです。
+
 ## リポジトリ
 
 https://github.com/yosinn1-blip/ec-price-watch
